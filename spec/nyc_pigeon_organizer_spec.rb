@@ -167,7 +167,7 @@ describe "NYC Pigeon Organizer" do
         end
         it "knows alex plays basketball" do
           expect(@alex[:lives].length).to eq(1)
-          exp
+          expect(@alex[:;ives].to include("Los Angelos Lakers")
       end
 
     end # context
