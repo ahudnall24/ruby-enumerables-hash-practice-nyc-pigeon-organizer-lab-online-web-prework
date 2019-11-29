@@ -165,6 +165,9 @@ describe "NYC Pigeon Organizer" do
           expect(@alex[:lives].length).to eq(1)
           expect(@alex[:lives]).to include("Central Park")
         end
+        it "knows alex plays basketball" do
+          expect(@alex[:lives].length).to eq(1)
+          exp
       end
 
     end # context
